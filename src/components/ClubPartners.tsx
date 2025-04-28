@@ -70,6 +70,28 @@ const ClubPartners = () => {
         />
       ) 
     },
+    { 
+      name: "Internacional", 
+      id: 7, 
+      img: () => (
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg" 
+          alt="Internacional" 
+          className="h-full w-full object-contain"
+        />
+      ) 
+    },
+    { 
+      name: "Bahia", 
+      id: 8, 
+      img: () => (
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png" 
+          alt="Bahia" 
+          className="h-full w-full object-contain"
+        />
+      ) 
+    },
   ];
 
   return (
