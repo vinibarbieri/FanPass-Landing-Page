@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
+import { StarBorder } from "@/components/ui/star-border"
 
 interface HeroProps extends Omit<React.HTMLAttributes<HTMLElement>, 'title'> {
   gradient?: boolean
@@ -140,13 +141,18 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
             {actions && actions.length > 0 && (
               <div className={cn("flex gap-4", actionsClassName)}>
                 {actions.map((action, index) => (
-                  <Button
+                  <StarBorder
                     key={index}
-                    variant={action.variant || "default"}
-                    asChild
+                    as={Link}
+                    to={action.href}
+                    color="hsl(var(--primary))"
+                    className={cn(
+                      "hover:no-underline",
+                      action.variant === "destructive" && "hover:bg-destructive hover:text-destructive-foreground hover:border-destructive"
+                    )}
                   >
-                    <Link to={action.href}>{action.label}</Link>
-                  </Button>
+                    {action.label}
+                  </StarBorder>
                 ))}
               </div>
             )}

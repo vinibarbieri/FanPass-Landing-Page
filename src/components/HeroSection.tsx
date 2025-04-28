@@ -1,4 +1,3 @@
-
 import { Rocket } from "lucide-react";
 import { Hero } from "@/components/ui/hero";
 import { motion } from "framer-motion";
@@ -20,7 +19,7 @@ const HeroSection = () => {
             </>
           ),
           href: "#",
-          variant: "outline"
+          variant: "destructive"
         }
       ]}
       actionsClassName="mt-8"

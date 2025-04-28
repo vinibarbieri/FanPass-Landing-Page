@@ -14,6 +14,7 @@
     
     /* Change primary color to FF595C (red) */
     --primary: 357 100% 64%; /* Converted FF595C to HSL */
+    --primary-rgb: 255, 89, 92; /* RGB values for FF595C */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 210 40% 96.1%;
@@ -50,6 +51,7 @@
     
     /* Change primary color to FF595C (red) */
     --primary: 357 100% 64%; /* Converted FF595C to HSL */
+    --primary-rgb: 255, 89, 92; /* RGB values for FF595C */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 240 5% 10%;
