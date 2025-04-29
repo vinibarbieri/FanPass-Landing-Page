@@ -42,8 +42,8 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#benefits" className="text-foreground/80 hover:text-primary transition-colors font-medium">Benefícios</a>
-          <a href="#how-it-works" className="text-foreground/80 hover:text-primary transition-colors font-medium">Como Funciona</a>
           <a href="#showcase" className="text-foreground/80 hover:text-primary transition-colors font-medium">NFTs</a>
+          <a href="#how-it-works" className="text-foreground/80 hover:text-primary transition-colors font-medium">Como Funciona</a>
         </nav>
 
         {/* Desktop CTA Button */}

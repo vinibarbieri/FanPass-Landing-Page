@@ -42,10 +42,12 @@ const Index = () => {
       <div id="benefits">
         <BenefitsSection />
       </div>
-      
-      <NftShowcase />
 
       <div id="showcase">
+        <NftShowcase />
+      </div>
+
+      <div id="how-it-works">
         <HowItWorksSection />
       </div>
       
