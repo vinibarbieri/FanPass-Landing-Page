@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# 🏟️ FanPass Landing Page
 
-## Project info
+**FanPass** é a nova plataforma de ingressos NFT para esportes na **Chiliz Chain**, criada para revolucionar a experiência dos torcedores e ampliar as receitas dos clubes.
 
-**URL**: https://lovable.dev/projects/362549a3-4f60-4206-9441-6c1a9b1db99a
+Esta landing page tem como objetivo apresentar o projeto, explicar seu funcionamento e incentivar novos usuários a se cadastrarem.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Sobre o FanPass
 
-**Use Lovable**
+- **Marketplace de ingressos NFT de temporada inteira**
+- **Venda e aluguel** seguro de ingressos entre torcedores
+- **Pagamento simplificado**: Fan Tokens, Pix ou Cartão de Crédito
+- **Royalties automáticos** para clubes em cada transação secundária
+- **Experiência Web2**: não exige conexão de carteira para o usuário
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/362549a3-4f60-4206-9441-6c1a9b1db99a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎯 Estrutura da Landing Page
 
-**Use your preferred IDE**
+- **Seção de Introdução**  
+  Apresentação rápida do que é o FanPass, com chamada para ação.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Seção Como Funciona**  
+  Explicação em 5 passos simples sobre como usar a plataforma.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Seção Benefícios**  
+  Destaques para usuários e clubes: segurança, economia, experiências exclusivas.
 
-Follow these steps:
+- **Seção Call to Action**  
+  Incentivo direto para o visitante criar sua conta e começar.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tecnologias Utilizadas
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Frontend:**  
+  - HTML5
+  - CSS3
+  - JavaScript (ou React, se aplicável)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- **Design:**  
+  - Layout responsivo
+  - Otimizado para desktop e mobile
+  - UX focada em simplicidade e fluidez
+
+---
+
+## 🧩 Como rodar localmente
+
+```bash
+git clone https://github.com/seu-usuario/fanpass-landing.git
+cd fanpass-landing
+npm install  # caso use ferramentas modernas como Vite/React
+npm run dev  # ou apenas abra o index.html no navegador
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📄 Licença
 
-**Use GitHub Codespaces**
+Este projeto é de código aberto para fins de demonstração do Hackathon Chiliz Chain.  
+Direitos reservados ao projeto FanPass.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+# ⚡ Vamos transformar a paixão em memórias digitais! ⚽🏆
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/362549a3-4f60-4206-9441-6c1a9b1db99a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---

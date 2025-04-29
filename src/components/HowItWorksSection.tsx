@@ -68,7 +68,7 @@ const HowItWorksSection = () => {
             >
               {/* Connector line between steps */}
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/4 -right-4 w-8 h-0.5 bg-primary/30 z-0" />
+                <div className="hidden md:block absolute top-1/2 -right-[calc(2rem+1px)] w-[calc(2rem+2px)] h-0.5 bg-primary/30 z-0" />
               )}
               
               <div className="bg-primary/10 p-4 rounded-full mb-4">

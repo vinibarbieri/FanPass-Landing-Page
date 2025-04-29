@@ -29,18 +29,13 @@ const NftShowcase = () => {
               <div className="absolute inset-0 [transform-style:preserve-3d] animate-[float_6s_ease-in-out_infinite]">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/50 to-primary/80 rounded-2xl shadow-xl p-4 backdrop-blur-md border border-white/10 flex flex-col">
                   <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h3 className="font-bold text-sm">FANPASS NFT</h3>
-                    </div>
-                    <div className="bg-accent text-accent-foreground text-xs px-2 py-1 rounded font-medium">
-                      #0042
-                    </div>
+
                   </div>
                   
                   <div className="flex-1 bg-black/30 rounded-lg overflow-hidden mb-4">
                     <img 
-                      src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=989&q=80" 
-                      alt="Estádio durante jogo"
+                      src="/spfc.png"
+                      alt="SPFC"
                       className="w-full h-full object-cover"
                     />
                   </div>
