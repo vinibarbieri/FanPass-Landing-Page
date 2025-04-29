@@ -41,7 +41,7 @@ const BenefitsSection = () => {
     {
       icon: Trophy,
       title: "Colecione momentos históricos",
-      description: "Gols, viradas e títulos viram NFTs exclusivos só pra quem estava lá."
+      description: "Gols e títulos viram NFTs exclusivos de quem estava lá."
     }
   ];
 

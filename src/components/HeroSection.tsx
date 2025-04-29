@@ -18,7 +18,7 @@ const HeroSection = () => {
               <Rocket strokeWidth={1.5} fill="none" /> Launch DApp
             </>
           ),
-          href: "#",
+          href: "/under-construction",
           variant: "destructive"
         }
       ]}

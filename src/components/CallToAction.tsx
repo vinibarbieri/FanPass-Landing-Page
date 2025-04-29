@@ -1,6 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
@@ -17,13 +17,15 @@ const CallToAction = () => {
             <span className="font-semibold text-foreground">Tudo num clique.</span>
           </p>
           
-          <Button 
-            size="lg" 
-            className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-primary/50 transition-all duration-300 relative overflow-hidden btn-hover-effect"
-          >
-            <Rocket className="mr-2 h-5 w-5" />
-            Launch DApp
-          </Button>
+          <Link to="/under-construction">
+            <Button 
+              size="lg" 
+              className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-primary/50 transition-all duration-300 relative overflow-hidden btn-hover-effect"
+            >
+              <Rocket className="mr-2 h-5 w-5" />
+              Launch DApp
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

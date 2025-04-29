@@ -1,7 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Rocket, Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 import {
   Sheet,
   SheetContent,
@@ -48,13 +48,15 @@ const Navbar = () => {
 
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
-          <Button 
-            size="sm" 
-            className="rounded-full shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all"
-          >
-            <Rocket className="mr-2 h-4 w-4" />
-            Launch DApp
-          </Button>
+          <Link to="/under-construction">
+            <Button 
+              size="sm" 
+              className="rounded-full shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all"
+            >
+              <Rocket className="mr-2 h-4 w-4" />
+              Launch DApp
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Navigation */}
@@ -71,12 +73,14 @@ const Navbar = () => {
                 <a href="#how-it-works" className="text-foreground hover:text-primary transition-colors text-lg font-medium">Como Funciona</a>
                 <a href="#showcase" className="text-foreground hover:text-primary transition-colors text-lg font-medium">NFTs</a>
                 
-                <Button 
-                  className="mt-4 rounded-full shadow-lg shadow-primary/20"
-                >
-                  <Rocket className="mr-2 h-4 w-4" />
-                  Launch DApp
-                </Button>
+                <Link to="/under-construction">
+                  <Button 
+                    className="mt-4 rounded-full shadow-lg shadow-primary/20"
+                  >
+                    <Rocket className="mr-2 h-4 w-4" />
+                    Launch DApp
+                  </Button>
+                </Link>
               </div>
             </SheetContent>
           </Sheet>

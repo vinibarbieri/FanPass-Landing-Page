@@ -1,7 +1,7 @@
-
 import { motion } from "framer-motion";
 import { UserPlus, Search, ShoppingCart, Ticket, QrCode, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HowItWorksSection = () => {
   const steps = [
@@ -93,9 +93,11 @@ const HowItWorksSection = () => {
           <p className="text-lg font-semibold mb-6">
             FanPass: Seu ingresso, sua memória, seu jogo. Comece agora!
           </p>
-          <Button size="lg" className="rounded-full">
-            Começar agora <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+          <Link to="/under-construction">
+            <Button size="lg" className="rounded-full">
+              Começar agora <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
